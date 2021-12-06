@@ -1,0 +1,31 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Moje stránka</title>
+        <link rel=stylesheet href="ukol1.css">
+    </head>
+    <body>
+        <h1>Stránka se změnami vlastností objektů</h1>
+        <p>Najeď myší na motýla, kterého chceš vidět</p>
+        
+        <table border=7 align="center">
+            <th colspan="2" onmouseover="document.getElementById('mujmotyl').innerHTML='<img src=\'motyli.gif\'>'">Naši motýli</th>
+            <tr>
+                <td onmouseover="this.style.backgroundColor='yellow';document.getElementById('mujmotyl').innerHTML='<img src=\'otakarek.gif\'>'"
+                    onmouseleave="this.style.backgroundColor=''"
+                >Otakárek</td>
+                <td id="mujmotyl" rowspan="3"><img src="motyli.gif"></td>
+               </tr>
+            <tr>
+                <td onmouseover="this.style.backgroundColor='yellow';document.getElementById('mujmotyl').innerHTML='<img src=\'zlutasek.gif\'>'"
+                    onmouseleave="this.style.backgroundColor=''"
+                >Žluťásek</td>
+            </tr>
+            <tr>
+                <td onmouseover="this.style.backgroundColor='yellow';document.getElementById('mujmotyl').innerHTML='<img src=\'babocka.gif\'>'"
+                    onmouseleave="this.style.backgroundColor=''"
+                >Babočka</td>
+            </tr>        
+        </table>
+    </body>
+</html>

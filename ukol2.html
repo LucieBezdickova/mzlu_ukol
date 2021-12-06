@@ -1,0 +1,33 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Moje stránka</title>
+        <link rel=stylesheet href="ukol2.css">
+    </head>
+    <body>
+        <h1 onmouseover="this.style.color='blue';this.style.textAlign='center';this.style.fontFamily='Arial'"
+            onmouseleave="this.style.color='';this.style.textAlign='';this.style.fontFamily=''">Stránka se změnami vlastností objektů</h1>
+        <ul>
+            <li>Najeď myší na nadpis.</li>
+            <li>Klikni na tlačítko s barvou.</li>
+            <li>Klikni na tlačítko Přidej motýla.</li>
+        </ul>
+        <button onmousedown="this.style.color='red';document.body.style.backgroundColor='red'">červená</button>
+        <button onmousedown="this.style.color='green';document.body.style.backgroundColor='green'">zelená</button>
+        <button onmousedown="this.style.color='blue';document.body.style.backgroundColor='blue'">modrá</button>
+        <button onmousedown="this.style.color='yellow';document.body.style.backgroundColor='yellow'">žlutá</button>
+        <button onmousedown="this.style.color='';document.body.style.backgroundColor=''">původní</button>
+        
+        <br>
+        <br>
+        <br>
+        <div class="A">
+            <button onmousedown="document.getElementById('motyl').innerHTML+='<img src=\'babocka.gif\'>'">
+                Přidej motýla!<br>
+                <img src="motyli.gif"><br>
+                Přidej motýla!
+            </button>
+        </div>
+        <div id="motyl" class="B"> <img src='babocka.gif'></div>
+    </body>
+</html>

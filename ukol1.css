@@ -1,0 +1,11 @@
+
+h1, h3 {color: black; text-align: center}
+body {text-align: center; background-color: #94ee94;}
+table {background-color:#ddffde;
+       border-color: #048502; 
+       border-style: ridge;
+       height: 450px ; width: 550px;}
+td {text-align: center; font-weight: bold;}
+img {width: 250px;}
+th {height: 50px;}
+ul {text-align: left}
