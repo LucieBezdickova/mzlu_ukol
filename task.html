@@ -1,0 +1,59 @@
+<html lang="cs-CZ">
+    <head>
+        <title>Math Task</title>
+        <meta charset="UTF-8">
+        <link rel=stylesheet href="math.css">
+    </head>
+    <body>
+        <div class="task">
+            <section class="task_header">task_header</section>
+            <section class="task_description">
+                <div>
+                    Task_description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sumenda potius quam expetenda. Nihil opus est exemplis hoc facere longius.
+                </div>
+            </section>
+            <section class="task_help">
+                <div ondblclick="document.getElementById('task_help_1').style='display:block'">task_help_1:</div>
+                <div>
+                    <ul id='task_help_1' style="display:none;">
+                        <li>Lorem ipsum dolor sit amet</li>
+                        <li>Nihil opus est exemplis hoc</li> 
+                        <li>facere longius.</li>
+                    </ul>
+                </div>
+            </section>
+            <section class="task_help">
+                <div ondblclick="document.getElementById('task_help_2').style='display:block'">task_help_2:</div>
+                <div id="task_help_2" style="display:none;">
+                    <ul>
+                        <li>Lorem ipsum dolor sit amet</li>
+                        <li>Nihil opus est exemplis hoc</li> 
+                        <li>facere longius.</li>
+                    </ul>
+                </div>
+            </section>
+            <section class="task_help">
+                <div ondblclick="document.getElementById('task_help_3').style='display:block'">task_help_3:</div>
+                <div id="task_help_3" style="display:none;">
+                    <ul>
+                        <li>Lorem ipsum dolor sit amet</li>
+                        <li>Nihil opus est exemplis hoc</li> 
+                        <li>facere longius.</li>
+                    </ul>
+                </div>
+            </section>
+            <section class="task_answer">
+                task_answer: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sumenda potius quam expetenda. Nihil opus est <input type=text id="task_answer" title="Zadejte výsledek"/> hoc facere longius.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sumenda potius quam expetenda. Nihil opus est exemplis hoc facere longius. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sumenda potius quam expetenda. Nihil opus est exemplis hoc facere longius.
+                <button class="task_check_btn" ondblclick="var my_task_answer = document.getElementById('task_answer').value;
+                                                           alert(my_task_answer);
+                                                           document.getElementById('task_solution').style='display:block'">Zkontroluj</button>
+            </section>
+            <section class="task_solution" id="task_solution" style="display:none;">
+                <div>
+                    task_solution
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sumenda potius quam expetenda. Nihil opus est exemplis hoc facere longius.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sumenda potius quam expetenda. Nihil opus est exemplis hoc facere longius. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sumenda potius quam expetenda. Nihil opus est exemplis hoc facere longius.
+                </div>
+            </section>
+        </main>
+    </body>
+</html>
