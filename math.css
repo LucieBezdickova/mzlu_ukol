@@ -2,7 +2,7 @@ main, header, section, aside, footer {
     margin: 0;
     padding: 5px;
     border: 1px solid #000000;
-    color: #000000;
+    color: #ffffff;
 }
 
 .task {
@@ -56,24 +56,24 @@ main {
     background: #000000;
 }
 
-.header {
+.hlavicka {
     background: #03a9f4;
 }
 
-.hero {
+.rocniky {
     background: #d22b1f;
 }
 
-.content {
+.obsah {
     background: #129a22;
 }
 
-.themes {
+.temata {
     border: 1px solid #000000;
     background: #673ab7;
 }
 
-.footer {
+.paticka {
     border: 1px solid #000000;
     background: #616161;
 }
