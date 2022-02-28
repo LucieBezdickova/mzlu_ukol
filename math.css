@@ -1,8 +1,8 @@
 main, header, section, aside, footer {
     margin: 0;
-    padding: 5px;
+    padding: 20px;
     border: 1px solid #000000;
-    color: #000000;
+    color: #ffffff;
 }
 
 .task {
@@ -54,26 +54,40 @@ main, header, section, aside, footer {
 }
 main {
     background: #000000;
+    padding: 10px;
 }
 
-.header {
+.hlavicka {
     background: #03a9f4;
 }
 
-.hero {
+.rocniky {
     background: #d22b1f;
 }
 
-.content {
+.obsah {
     background: #129a22;
+    flex: 1;
 }
 
-.themes {
+.temata {
     border: 1px solid #000000;
     background: #673ab7;
+    flex: 0 1 250px;
 }
 
-.footer {
+.paticka {
     border: 1px solid #000000;
     background: #616161;
+}
+
+.flex_blok {
+    margin: auto;
+    max-width: 1200px;
+}
+
+@media screen and (min-width: 640px){
+    .flex_blok {
+        display: flex;
+    }    
 }
