@@ -6,52 +6,50 @@
     </head>
     <body>
         <div class="task">
-            <section class="task_header">task_header</section>
+            <section class="task_header">task_hlavicka</section>
             <section class="task_description">
                 <div>
-                    Task_description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sumenda potius quam expetenda. Nihil opus est exemplis hoc facere longius.
+                    Task_popis: Devět malířů vymaluje halu za 16 hodin. Jak dlouho to bude trvat 12 malířům?
                 </div>
             </section>
             <section class="task_help">
-                <div ondblclick="document.getElementById('task_help_1').style='display:block'">task_help_1:</div>
+                <div ondblclick="document.getElementById('task_help_1').style='display:block'">task_nápověda_1:</div>
                 <div>
                     <ul id='task_help_1' style="display:none;">
-                        <li>Lorem ipsum dolor sit amet</li>
-                        <li>Nihil opus est exemplis hoc</li> 
-                        <li>facere longius.</li>
+                        <li>Přímá nebo nepřímá úměrnost?</li>
+                        <li>Čím víc malířů bude na úkolu pracovat, tím dřív bude hotov.</li> 
+                        <li>Jedna veličina se zvětšuje, druhá se zmenšuje => nepřímá úměrnost.</li>
                     </ul>
                 </div>
             </section>
             <section class="task_help">
-                <div ondblclick="document.getElementById('task_help_2').style='display:block'">task_help_2:</div>
+                <div ondblclick="document.getElementById('task_help_2').style='display:block'">task_nápověda_2:</div>
                 <div id="task_help_2" style="display:none;">
                     <ul>
-                        <li>Lorem ipsum dolor sit amet</li>
-                        <li>Nihil opus est exemplis hoc</li> 
-                        <li>facere longius.</li>
-                    </ul>
-                </div>
-            </section>
-            <section class="task_help">
-                <div ondblclick="document.getElementById('task_help_3').style='display:block'">task_help_3:</div>
-                <div id="task_help_3" style="display:none;">
-                    <ul>
-                        <li>Lorem ipsum dolor sit amet</li>
-                        <li>Nihil opus est exemplis hoc</li> 
-                        <li>facere longius.</li>
+                        9 malířů..............16 dní<br>
+                        12 malířů..............x dní<br>
+                        ----------------------------<br>
+                        Protože se jedná o nepřímou úměrnost, šipky pro se stavení zlomků jdou v opačném směru.<br>
+                        x : 16 = 9 : 12
+
+                       
+                    
                     </ul>
                 </div>
             </section>
             <section class="task_answer">
-                task_answer: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sumenda potius quam expetenda. Nihil opus est <input type=text id="task_answer" title="Zadejte výsledek"/> hoc facere longius.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sumenda potius quam expetenda. Nihil opus est exemplis hoc facere longius. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sumenda potius quam expetenda. Nihil opus est exemplis hoc facere longius.
+                task_odpověď: 12 malířů vymaluje tuto halu za <input type=text id="task_answer" title="Zadejte výsledek"/> hodin.
                 <button class="task_check_btn" ondblclick="var my_task_answer = document.getElementById('task_answer').value;
                                                            alert(my_task_answer);
                                                            document.getElementById('task_solution').style='display:block'">Zkontroluj</button>
             </section>
             <section class="task_solution" id="task_solution" style="display:none;">
                 <div>
-                    task_solution
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sumenda potius quam expetenda. Nihil opus est exemplis hoc facere longius.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sumenda potius quam expetenda. Nihil opus est exemplis hoc facere longius. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sumenda potius quam expetenda. Nihil opus est exemplis hoc facere longius.
+                    task_řešení:<br>
+                    x : 16 = 9 : 12<br>
+                    x = 16 . 9 : 12<br>
+                    x = 12
+                    
                 </div>
             </section>
         </main>
