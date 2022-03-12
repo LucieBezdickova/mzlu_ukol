@@ -3,55 +3,9 @@
         <title>Math Task</title>
         <meta charset="UTF-8">
         <link rel=stylesheet href="math.css">
+        <script src="math.js"></script>
     </head>
-    <body>
-        <div class="task">
-            <section class="task_header">task_hlavicka</section>
-            <section class="task_description">
-                <div>
-                    Task_popis: Devět malířů vymaluje halu za 16 hodin. Jak dlouho to bude trvat 12 malířům?
-                </div>
-            </section>
-            <section class="task_help">
-                <div ondblclick="document.getElementById('task_help_1').style='display:block'">task_nápověda_1:</div>
-                <div>
-                    <ul id='task_help_1' style="display:none;">
-                        <li>Přímá nebo nepřímá úměrnost?</li>
-                        <li>Čím víc malířů bude na úkolu pracovat, tím dřív bude hotov.</li> 
-                        <li>Jedna veličina se zvětšuje, druhá se zmenšuje => nepřímá úměrnost.</li>
-                    </ul>
-                </div>
-            </section>
-            <section class="task_help">
-                <div ondblclick="document.getElementById('task_help_2').style='display:block'">task_nápověda_2:</div>
-                <div id="task_help_2" style="display:none;">
-                    <ul>
-                        9 malířů..............16 dní<br>
-                        12 malířů..............x dní<br>
-                        ----------------------------<br>
-                        Protože se jedná o nepřímou úměrnost, šipky pro se stavení zlomků jdou v opačném směru.<br>
-                        x : 16 = 9 : 12
-
-                       
-                    
-                    </ul>
-                </div>
-            </section>
-            <section class="task_answer">
-                task_odpověď: 12 malířů vymaluje tuto halu za <input type=text id="task_answer" title="Zadejte výsledek"/> hodin.
-                <button class="task_check_btn" ondblclick="var my_task_answer = document.getElementById('task_answer').value;
-                                                           alert(my_task_answer);
-                                                           document.getElementById('task_solution').style='display:block'">Zkontroluj</button>
-            </section>
-            <section class="task_solution" id="task_solution" style="display:none;">
-                <div>
-                    task_řešení:<br>
-                    x : 16 = 9 : 12<br>
-                    x = 16 . 9 : 12<br>
-                    x = 12
-                    
-                </div>
-            </section>
-        </main>
+        <body onload="loadHTMLDoc('ukoly.html')">
+            <div id="loadHTML"></div>
     </body>
 </html>

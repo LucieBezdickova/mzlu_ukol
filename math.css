@@ -14,11 +14,28 @@ main, header, section, aside, footer {
     color: #ffffff;
 }
 
+.task_container {
+    display: none;
+}
+
 .task_header
 {
+    display: flex;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     background: #03a9f4;  
+    flex-direction: row;
+}
+
+.task_help_line {
+    display: none;
+}
+
+.task_header_desc
+{
+    flex: 2;
+    background: green;
+    border-top-left-radius: 10px;
 }
 
 .task_description
@@ -37,14 +54,14 @@ main, header, section, aside, footer {
 {
     flex: 1;
     background: gray;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
 }
 
 .task_solution
 {
     flex: 1;
     background: green;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
 }
 
 .task_check_btn
@@ -63,31 +80,64 @@ main {
 
 .rocniky {
     background: #d22b1f;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+
+.rocnikitem {
+    border: 1px solid #000000;
+    padding: 5px;
+    color: black;
+    text-align: center;
 }
 
 .obsah {
     background: #129a22;
+
+    /* responsive section */
     flex: 1;
 }
 
 .temata {
     border: 1px solid #000000;
     background: #673ab7;
+
+    /* responsive section */
     flex: 0 1 250px;
 }
 
 .paticka {
     border: 1px solid #000000;
-    background: #616161;
+    background: #bfcf29;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
 }
 
+.patickaitem {
+    border: 1px solid blue;
+    color: #129a22;  
+    text-align: center;
+}
+
+/* responsive section */
 .flex_blok {
     margin: auto;
     max-width: 1200px;
 }
 
-@media screen and (min-width: 640px){
+@media only screen and (min-width: 640px){
     .flex_blok {
         display: flex;
     }    
+    .rocnikitem {
+        display: flex;
+        color:green;
+    }
+    .rocniky,.paticka {
+        flex-direction: row;
+    }
 }

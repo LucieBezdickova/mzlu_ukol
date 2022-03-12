@@ -4,8 +4,9 @@
         <title>Moje stránka</title>
         <link rel=stylesheet href="math.css">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="math.js"></script>
     </head>
-    <body>
+    <body onload="loadHTMLDoc('ukoly.html')">
         <main>
        
             <section class="hlavicka">
@@ -14,7 +15,12 @@
 
             
             <section class="rocniky">
-                <b>ROCNIKY</b> | 6.ROCNIK | 7.ROCNIK | 8.ROCNIK | 9.ROCNIK | KONTAKT  
+                <div class="rocnikitem">INFO</div>
+                <div class="rocnikitem">6.ROČNÍK</div>
+                <div class="rocnikitem">7.ROČNÍK</div>
+                <div class="rocnikitem">8.ROČNÍK</div>
+                <div class="rocnikitem">9.ROČNÍK</div>
+                <div class="rocnikitem">KONTAKT</div> 
             </section>
 
             <div class="flex_blok"> 
@@ -31,20 +37,15 @@
 
                 <section class="obsah">
                     <b>OBSAH</b>
-                    <p> 
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sumenda potius quam expetenda. Nihil opus est exemplis hoc facere longius.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sumenda potius quam expetenda. Nihil opus est exemplis hoc facere longius. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sumenda potius quam expetenda. Nihil opus est exemplis hoc facere longius.
-                    </p>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sumenda potius quam expetenda. Nihil opus est exemplis hoc facere longius.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sumenda potius quam expetenda. Nihil opus est exemplis hoc facere longius. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sumenda potius quam expetenda. Nihil opus est exemplis hoc facere longius.
-                    </p>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sumenda potius quam expetenda. Nihil opus est exemplis hoc facere longius.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sumenda potius quam expetenda. Nihil opus est exemplis hoc facere longius. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sumenda potius quam expetenda. Nihil opus est exemplis hoc facere longius.
-                    </p>
+
+                    <div id="loadHTML"></div>
+
                 </section>
             </div>
 
             <section class="paticka">
-                <b>PATIČKA</b> Poslední aktualizace @2022 
+                <div class="patickaitem"><b>PATIČKA</b></div>
+                <div class="patickaitem">Poslední aktualizace @2022</div>
             </section>
         </main>
     </body>
