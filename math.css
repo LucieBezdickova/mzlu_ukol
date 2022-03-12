@@ -1,6 +1,6 @@
 main, header, section, aside, footer {
     margin: 0;
-    padding: 20px;
+    padding: 5px;
     border: 1px solid #000000;
     color: #ffffff;
 }
@@ -9,7 +9,7 @@ main, header, section, aside, footer {
     display: flex;
     flex-direction:column;
     margin: 0;
-    padding: 20px;
+    padding: 5px;
     border: 1px solid #000000;
     color: #ffffff;
 }
