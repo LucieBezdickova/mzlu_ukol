@@ -5,14 +5,13 @@ function hideAllElementsByClassName(className) {
     }
 }
 
-function loadHTMLDoc(inHTMLFile) {
-    debugger;
-    var xhttp = new XMLHttpRequest();
-    xhttp.onreadystatechange = function() {
-      if (this.readyState == 4 && this.status == 200) {
-        document.getElementById("loadHTML").innerHTML = this.responseText;
-        }
-    }
-    xhttp.open("GET", inHTMLFile, true);
-    xhttp.send();
+function nactiHTMLData(inHTMLFile,inElementId) {
+  var xhttp = new XMLHttpRequest();
+  xhttp.onreadystatechange = function() {
+    if (this.readyState == 4 && this.status == 200) {
+      document.getElementById(inElementId).innerHTML = this.responseText;
+      }
   }
+  xhttp.open("GET", inHTMLFile, true);
+  xhttp.send();
+}
