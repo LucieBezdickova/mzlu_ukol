@@ -36,8 +36,8 @@ function rozpadniUkoly(xmlText) {
     x = xmlDoc.getElementsByTagName("ukol");
 
   for (i = 0; i< x.length; i++) {
-    txt += x[i].getAttribute("id") + "<br>";
-    txt += x[i].getAttribute("nadpis") + "<br>";
+    txt += "<b>" + x[i].getAttribute("id")+"</b>" + "<br>";
+    txt += "<b>" + x[i].getAttribute("nadpis")+"</b>" + "<br>";
     txt += x[i].getAttribute("uroven") + "<br>";
     txt += x[i].getAttribute("body") + "<br>";
 
