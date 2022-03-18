@@ -1,0 +1,83 @@
+<xml version="1.0" encoding="UTF-8">
+<!-- prázdný vzorový úkol
+
+        <ukol id="0" nadpis="XXX" uroven="0" body="0" reseni_A="0" reseni_B="0">
+            <ukol_telo>
+                <ukol_zadani>Zadání</ukol_zadani>
+                <ukol_napoveda body_dolu="-0">
+                    <ukol_napoveda_obsah>
+                        nápověd napsaná s pomocí html značek
+                    </ukol_napoveda_obsah>
+                </ukol_napoveda>
+                <ukol_napoveda body_dolu="-0">
+                    <ukol_napoveda_obsah>
+                        nápověd napsaná s pomocí html značek
+                    </ukol_napoveda_obsah>
+                </ukol_napoveda>
+                <ukol_odpoved>
+                    Odpověď v html: text odpovědi, symbol %1 se používá pro vstup uživatele (%2 pro vstup 2)
+                    <ukol_reseni>
+                            Řešení popsané s pomocí html značek
+                    </ukol_reseni>
+                </ukol_odpoved>    
+            </ukol_telo>
+        </ukol>
+-->
+    <ukoly>
+        <ukol id="1" nadpis="Malíři" uroven="1" body="10" reseni_A="14" reseni_B="">
+            <ukol_telo>
+                <ukol_zadani>Zadání: Devět malířů vymaluje halu za 16 hodin. Jak dlouho to bude trvat 12 malířům?</ukol_zadani>
+                <ukol_napoveda body_dolu="-3">
+                    <ukol_napoveda_obsah>
+                        <ul>
+                            <li>Přímá nebo nepřímá úměrnost?</li>
+                            <li>Čím víc malířů bude na úkolu pracovat, tím dřív bude hotov.</li> 
+                            <li>Jedna veličina se zvětšuje, druhá se zmenšuje => nepřímá úměrnost.</li>
+                        </ul>
+                    </ukol_napoveda_obsah>
+                </ukol_napoveda>
+                <ukol_napoveda body_dolu="-3">
+                    <ukol_napoveda_obsah>
+                        <ul>
+                            9 malířů..............16 dní<br/>
+                            12 malířů..............x dní<br/>
+                            ----------------------------<br/>
+                            Protože se jedná o nepřímou úměrnost, šipky pro se stavení zlomků jdou v opačném směru.<br/>
+                            x : 16 = 9 : 12 <br/>
+                        </ul>
+                    </ukol_napoveda_obsah>
+                </ukol_napoveda>
+                <ukol_odpoved>
+                    Odpověď: 12 malířů vymaluje tuto halu za %1 hodin.
+                    <ukol_reseni>
+                            Řešení:<br/>
+                            x : 16 = 9 : 12<br/>
+                            x = 16 . 9 : 12<br/>
+                            x = 12
+                    </ukol_reseni>
+                </ukol_odpoved>    
+            </ukol_telo>
+        </ukol>
+        <ukol id="1" nadpis="Druhý úkol" uroven="2" body="4" reseni_A="17" reseni_B="0">
+            <ukol_telo>
+                <ukol_zadani>Druhý úkol je fakt zákeřný. Musíš mít ale splněný úkol č.1. Máš? Tak pojď.</ukol_zadani>
+                <ukol_napoveda body_dolu="-3">
+                    <ukol_napoveda_obsah>
+                        vidím, že to moc <b>nedáváš</b>. Tato rada tě stála -3 body.
+                    </ukol_napoveda_obsah>
+                </ukol_napoveda>
+                <ukol_napoveda body_dolu="-1">
+                    <ukol_napoveda_obsah>
+                        <i>po této nápovědě už ti žádné body nezbyly, jdi rovnou na výsledek</i>
+                    </ukol_napoveda_obsah>
+                </ukol_napoveda>
+                <ukol_odpoved>
+                    Lůůůůůzo, odpověz!!!! symbol %1 se používá pro vstup uživatele (%2 pro vstup 2)
+                    <ukol_reseni>
+                            Řešení druhého příkladu: XXXX
+                    </ukol_reseni>
+                </ukol_odpoved>    
+            </ukol_telo>
+        </ukol>
+    </ukoly>
+</xml>
