@@ -27,7 +27,7 @@ function loadUkolyXMLDoc(inHTMLFile,inElementId) {
     xhttp.send();
   }
 
-function rozpadniUkoly(xmlText) {
+function nactiUkoly(xmlText) {
   var x, i, xmlDoc, txt;
   debugger;
   parser = new DOMParser;
@@ -35,7 +35,15 @@ function rozpadniUkoly(xmlText) {
   txt = "";
     x = xmlDoc.getElementsByTagName("ukol");
 
+  // pro každý úkol
   for (i = 0; i< x.length; i++) {
+    txt += "<div class='task'>"
+
+    txt += "<section class='task_header' onclick='hideAllElementsByClassName(''task_container'');this.nextElementSibling.style=''display:block''>"
+    txt += "<div class='task_header_desc'>" +  x[i].getAttribute("nadpis") + "</div>"
+    txt += "<div class='task_level'>" + x[i].getAttribute("uroven") + "</div>"
+    txt += "</section>"
+  
     txt += "<b>" + x[i].getAttribute("id")+"</b>" + "<br>";
     txt += "<b>" + x[i].getAttribute("nadpis")+"</b>" + "<br>";
     txt += x[i].getAttribute("uroven") + "<br>";
@@ -52,6 +60,8 @@ function rozpadniUkoly(xmlText) {
         txt +=  "body dolů" + nap_radky[h].getAttribute("body_dolu"); 
         txt += " <b>help:</b>" + nap_radky[h].getElementsByTagName("ukol_napoveda_obsah")[0].innerHTML + "<br>";       
     }
+
+    txt += "</div>"  // task element
 
   }
   document.getElementById("ukolyHtml").innerHTML = txt;
