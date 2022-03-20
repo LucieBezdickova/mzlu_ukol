@@ -1,28 +1,4 @@
 <xml version="1.0" encoding="UTF-8">
-<!-- prázdný vzorový úkol
-
-        <ukol id="0" nadpis="XXX" uroven="0" body="0" reseni_A="0" reseni_B="0">
-            <ukol_telo>
-                <ukol_zadani>Zadání</ukol_zadani>
-                <ukol_napoveda body_dolu="-0">
-                    <ukol_napoveda_obsah>
-                        nápověd napsaná s pomocí html značek
-                    </ukol_napoveda_obsah>
-                </ukol_napoveda>
-                <ukol_napoveda body_dolu="-0">
-                    <ukol_napoveda_obsah>
-                        nápověd napsaná s pomocí html značek
-                    </ukol_napoveda_obsah>
-                </ukol_napoveda>
-                <ukol_odpoved>
-                    Odpověď v html: text odpovědi, symbol %1 se používá pro vstup uživatele (%2 pro vstup 2)
-                    <ukol_reseni>
-                            Řešení popsané s pomocí html značek
-                    </ukol_reseni>
-                </ukol_odpoved>    
-            </ukol_telo>
-        </ukol>
--->
     <ukoly>
         <ukol id="1" nadpis="Malíři" uroven="1" body="10" reseni_A="14" reseni_B="">
             <ukol_telo>
@@ -48,7 +24,7 @@
                     </ukol_napoveda_obsah>
                 </ukol_napoveda>
                 <ukol_odpoved>
-                    Odpověď: 12 malířů vymaluje tuto halu za %1 hodin.
+                    <ukol_odpoved_zaka>Odpověď: 12 malířů vymaluje tuto halu za %1 hodin.</ukol_odpoved_zaka>
                     <ukol_reseni>
                             Řešení:<br/>
                             x : 16 = 9 : 12<br/>
@@ -72,7 +48,7 @@
                     </ukol_napoveda_obsah>
                 </ukol_napoveda>
                 <ukol_odpoved>
-                    Lůůůůůzo, odpověz!!!! symbol %1 se používá pro vstup uživatele (%2 pro vstup 2)
+                    <ukol_odpoved_zaka>Lůůůůůzo, odpověz!!!! symbol %1 se používá pro vstup uživatele (%2 pro vstup 2)</ukol_odpoved_zaka>
                     <ukol_reseni>
                             Řešení druhého příkladu: XXXX
                     </ukol_reseni>
@@ -93,7 +69,7 @@
                     </ukol_napoveda_obsah>
                 </ukol_napoveda>
                 <ukol_odpoved>
-                    Odpověď v html: text odpovědi, symbol %1 se používá pro vstup uživatele (%2 pro vstup 2)
+                    <ukol_odpoved_zaka>Odpověď v html: text odpovědi, symbol %1 se používá pro vstup uživatele (%2 pro vstup 2)</ukol_odpoved_zaka> 
                     <ukol_reseni>
                             Řešení popsané s pomocí html značek
                     </ukol_reseni>

@@ -25,17 +25,35 @@ main, header, section, aside, footer {
     border-top-right-radius: 10px;
     background: #03a9f4;  
     flex-direction: row;
-}
+    justify-content: space-evenly;
+    text-align: center;
 
-.task_help_line {
-    display: none;
 }
 
 .task_header_desc
 {
-    flex: 2;
+    flex: 10;
     background: green;
     border-top-left-radius: 10px;
+    text-align: left;  
+}
+.task_level
+{
+    flex: 2;
+    background: rgb(118, 163, 35);
+    border-radius: 50px;
+}
+
+.task_points
+{
+    flex: 2;
+    background: rgb(19, 212, 19);
+    border-radius: 50px;
+}
+
+
+.task_help_line {
+    display: none;
 }
 
 .task_description
