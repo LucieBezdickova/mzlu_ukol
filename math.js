@@ -5,6 +5,27 @@ function hideAllElementsByClassName(className) {
     }
 }
 
+function zpracujNacteniStranky() {
+
+  // výchozí akce
+  nactiHTMLData('data/info.html','obsah');
+
+  // př. volání http://127.0.0.1:5501/index.html?rocnik=6&tema=ukoly6.delitelnost
+  const dotazNaWeb = window.location.search;  // získám celý řetězec dotazu
+  const dotazParametry = new URLSearchParams(dotazNaWeb);  // z řetezce chci znát jen ty parametry, tj. vše za ?
+  const rocnik = dotazParametry.get('rocnik')  // který ročník načíst do témat
+  const tema = dotazParametry.get('tema')    // které téma otevřít
+
+  if (rocnik == "6") { nactiHTMLData('data/temata6.html','temata');}
+  if (rocnik == "7") { nactiHTMLData('data/temata7.html','temata');}
+  if (rocnik == "8") { nactiHTMLData('data/temata8.html','temata');}
+  if (rocnik == "9") { nactiHTMLData('data/temata9.html','temata');}
+
+  if (tema != "") {
+    nactiXMLUkolyData("data/" + tema +".xml",'obsah');
+  }
+}
+
 function nactiHTMLData(inHTMLFile,inElementId) {
   var xhttp = new XMLHttpRequest();
   xhttp.onreadystatechange = function() {
