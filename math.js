@@ -41,7 +41,7 @@ function nactiUkoly(xmlText, inElementId) {
 
     txt += "<section class='task_header' onclick=\"hideAllElementsByClassName(\'task_container\');this.nextElementSibling.style=\'display:block\'\">";
     txt += "<div class='task_header_desc'>" +  x[i].getAttribute("nadpis") + "</div>";
-    txt += "<div class='task_level'>" + x[i].getAttribute("uroven") + "</div>";
+    txt += "<div class='task_level' level='" + x[i].getAttribute("uroven") +  "'>" + x[i].getAttribute("uroven") + "</div>";
     txt += "<div class='task_points'>" + x[i].getAttribute("body") + "</div>";
     txt += "</section>";
   

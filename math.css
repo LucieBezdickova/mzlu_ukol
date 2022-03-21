@@ -37,6 +37,7 @@ main, header, section, aside, footer {
     border-top-left-radius: 10px;
     text-align: left;  
 }
+
 .task_level
 {
     flex: 2;
@@ -66,6 +67,11 @@ main, header, section, aside, footer {
 {
     flex: 1;
     background: orange;
+}
+
+.task_help_line img {
+    max-width: 100%;
+    height: auto; 
 }
 
 .task_answer
