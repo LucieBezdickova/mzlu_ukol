@@ -1,0 +1,59 @@
+<xml version="1.0" encoding="UTF-8">
+<!-- prázdný vzorový úkol
+
+        <ukol id="0" nadpis="XXX" uroven="0" body="0" reseni_A="0" reseni_B="0">
+            <ukol_telo>
+                <ukol_zadani>Zadání</ukol_zadani>
+                <ukol_napoveda body_dolu="-0">
+                    <ukol_napoveda_obsah>
+                        nápověd napsaná s pomocí html značek
+                    </ukol_napoveda_obsah>
+                </ukol_napoveda>
+                <ukol_napoveda body_dolu="-0">
+                    <ukol_napoveda_obsah>
+                        nápověd napsaná s pomocí html značek
+                    </ukol_napoveda_obsah>
+                </ukol_napoveda>
+                <ukol_odpoved>
+                    <ukol_odpoved_zaka>
+                        Odpověď v html: text odpovědi, symbol %1 se používá pro vstup uživatele (%2 pro vstup 2)
+                    </ukol_odpoved_zaka>
+                    <ukol_reseni>
+                            Řešení popsané s pomocí html značek
+                    </ukol_reseni>
+                </ukol_odpoved>    
+            </ukol_telo>
+        </ukol>
+-->
+    <ukoly>
+        <ukol id="1" nadpis="Stín" uroven="1" body="10" reseni_A="0" reseni_B="0">
+            <ukol_telo>
+                <ukol_zadani>Jak vysoký je strom, jehož stín v poledne měří 13,5 metru? Změřili jsme, že tyč dlouhá 1 metr vrhá v poledne stín dlouhý 75 centimetrů.</ukol_zadani>
+                <ukol_napoveda body_dolu="-0">
+                    <ukol_napoveda_obsah>
+                        Udělej si náčrt a zaznač do něj údaje ze zadání.<br/>
+                        <img src="data/Obrazek_stin.jpg" alt="Obrazek_stin"/>
+                    </ukol_napoveda_obsah>
+                </ukol_napoveda>
+                <ukol_napoveda body_dolu="-0">
+                    <ukol_napoveda_obsah>
+                        Sestav odpovídající si poměry stran.<br/>
+                        výška stromu/délka tyče = stín stromu/ stín tyče<br/>
+                        v/100 = 1350/75
+                    </ukol_napoveda_obsah>
+                </ukol_napoveda>
+                <ukol_odpoved>
+                    <ukol_odpoved_zaka>
+                        Strom je vysoký %1 metrů.
+                    </ukol_odpoved_zaka>
+                    <ukol_reseni>
+                    <img src="data/Obrazek_stin.jpg" alt="Obrazek_stin"/><br/>
+                           v/100 = 1350/75<br/>
+                           v = (1350 . 100)/75<br/>
+                           v = 18 m
+                    </ukol_reseni>
+                </ukol_odpoved>    
+            </ukol_telo>
+        </ukol>
+    </ukoly>
+</xml>

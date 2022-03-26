@@ -1,0 +1,56 @@
+<xml version="1.0" encoding="UTF-8">
+<!-- prázdný vzorový úkol
+
+        <ukol id="0" nadpis="XXX" uroven="0" body="0" reseni_A="0" reseni_B="0">
+            <ukol_telo>
+                <ukol_zadani>Zadání</ukol_zadani>
+                <ukol_napoveda body_dolu="-0">
+                    <ukol_napoveda_obsah>
+                        nápověd napsaná s pomocí html značek
+                    </ukol_napoveda_obsah>
+                </ukol_napoveda>
+                <ukol_napoveda body_dolu="-0">
+                    <ukol_napoveda_obsah>
+                        nápověd napsaná s pomocí html značek
+                    </ukol_napoveda_obsah>
+                </ukol_napoveda>
+                <ukol_odpoved>
+                    <ukol_odpoved_zaka>
+                        Odpověď v html: text odpovědi, symbol %1 se používá pro vstup uživatele (%2 pro vstup 2)
+                    </ukol_odpoved_zaka>
+                    <ukol_reseni>
+                            Řešení popsané s pomocí html značek
+                    </ukol_reseni>
+                </ukol_odpoved>    
+            </ukol_telo>
+        </ukol>
+-->
+    <ukoly>
+       <ukol id="1" nadpis="Sloup" uroven="2" body="10" reseni_A="0" reseni_B="0">
+            <ukol_telo>
+                <ukol_zadani>Telegrafní sloup je podepřen vzpěrou dlouhou 4 m ve 3/4 své výšky, jejíž konec je od paty sloupu vzdálen 2,5 m. Vypočítej <b>výšku</b> telegrafního sloupu.<br/>
+                <img src="data/Obrazek_sloup1.jpg" alt="Obrazek_sloup1"/></ukol_zadani>
+                <ukol_napoveda body_dolu="-0">
+                    <ukol_napoveda_obsah>
+                        Nejprve bude potřeba vypočítat 3/4 výšky.<br/>
+                        Na obrázku je tato výška označena <b>x</b>.<br/>
+                        Pro výpočet použij pythagorovu větu.
+                    </ukol_napoveda_obsah>
+                </ukol_napoveda>
+                <ukol_napoveda body_dolu="-0">
+                    <ukol_napoveda_obsah>
+         
+                    </ukol_napoveda_obsah>
+                </ukol_napoveda>
+                <ukol_odpoved>
+                    <ukol_odpoved_zaka>
+                        Telegrafní sloup je vysoký %1 metru.
+                    </ukol_odpoved_zaka>
+                    <ukol_reseni>
+                            <img src="data/Obrazek_sloup2.jpg" alt="Obrazek_sloup2"/>
+                    </ukol_reseni>
+                </ukol_odpoved>    
+            </ukol_telo>
+        </ukol> 
+    </ukoly>
+</xml>
