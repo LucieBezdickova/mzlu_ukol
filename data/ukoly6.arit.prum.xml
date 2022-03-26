@@ -30,43 +30,50 @@
                 <ukol_zadani>Pepa hodil na kostce 5. Michal 3. a Franta 4. Jaký měli průměrný počet hozených bodů? </ukol_zadani>
                 <ukol_napoveda body_dolu="-2">
                     <ukol_napoveda_obsah>
-                        Uvědom si, že průměr se počítá jako celkové množství ku počtu výskytů.
+                        Pro výpočet aritmetického průměru musíš znát celkové <b>množství bodů</b> a také celkové <b>množství hodů</b>.<br/>
+                        <i>Tato rada tě stála -3 body.</i>
                     </ukol_napoveda_obsah>
                 </ukol_napoveda>
                 <ukol_napoveda body_dolu="-3">
                     <ukol_napoveda_obsah>
-                        Budeš potřebovat celkový součet hozených bodů a součet počtu hodů.
+                        Když víš, kolik bodů kluci hodili dohromady, jaký je průmerný počet bodů, jestliže házeli 3-krát?<br/>
+                        <i>Tato rada tě stála -3 body.</i>
                     </ukol_napoveda_obsah>
                 </ukol_napoveda>
                 <ukol_odpoved>
                     <ukol_odpoved_zaka>Průměr hozených bodů byl %1.</ukol_odpoved_zaka>
                     <ukol_reseni>
-                        Průměr vypočteš jako podíl <b>součtu bodů</b> hozených bodů ku <b>součtu počtu hodů</b>.
+                        celkový počet bodů: 5 + 3 + 4 = 12<br/>
+                        celkový počet hodů: 3<br/>
+                        aritmetický průměr: (celkový počet bodů) : (celkový počet hodů)<br/>
+                                            12 : 3 = 4 body
                     </ukol_reseni>
                 </ukol_odpoved>    
             </ukol_telo>
         </ukol>
-                <ukol id="2" nadpis="Průměrný prospěch" uroven="1" body="7" reseni_A="0" reseni_B="0">
+                <ukol id="2" nadpis="Průměrný prospěch" uroven="1" body="10" reseni_A="0" reseni_B="0">
             <ukol_telo>
-                <ukol_zadani>Žáci dostali tyto známky: 1,3,4,1,1,3,4. Jaká byla průměrná známka?</ukol_zadani>
+                <ukol_zadani>Eva dostala z matematiky tyto známky: 1, 3, 4, 1, 1, 3, 3, 1, 1. Jaká byla její průměrná známka?</ukol_zadani>
                 <ukol_napoveda body_dolu="-3">
                     <ukol_napoveda_obsah>
-                        Sečti si všechny známky.
+                        Sečti si všechny známky.<br/>
+                        <i>Tato rada tě stála -3 body.</i>
                     </ukol_napoveda_obsah>
                 </ukol_napoveda>
                 <ukol_napoveda body_dolu="-2">
                     <ukol_napoveda_obsah>
-                        Spočti si počet známek.
+                        Spočítej si počet známek.<br/>
+                        <i>Tato rada tě stála -3 body.</i>
                     </ukol_napoveda_obsah>
                 </ukol_napoveda>
                 <ukol_odpoved>
                     <ukol_odpoved_zaka>
-                        Průměrná známka byla %1 -ka.
+                        Průměrná známka byla %1 .
                     </ukol_odpoved_zaka>
                     <ukol_reseni>
-                        Celkový součet známek je 17. <br/>
-                        Počet známek je 7. <br/>
-                        Průměr známek tedy je 17 : 7 = 2.43.<br/>    
+                        Celkový součet známek je 18. <br/>
+                        Počet známek je 9. <br/>
+                        Průměrná známka tedy je 18 : 9 = 2.<br/>    
                     </ukol_reseni>
                 </ukol_odpoved>    
             </ukol_telo>

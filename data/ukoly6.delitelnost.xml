@@ -27,39 +27,46 @@
 -->
     <ukoly>
         <!-- sem vložte zkopirovany element <ukol> -->
-        <ukol id="1" nadpis="Jak založit nový úkol" uroven="5" body="10" reseni_A="0" reseni_B="0">
+        <ukol id="1" nadpis="Ozubená kolečka" uroven="5" body="10" reseni_A="0" reseni_B="0">
             <ukol_telo>
-                <ukol_zadani>Založte nové téma do 6. ročníku a vložte první úkol</ukol_zadani>
+                <ukol_zadani>Kolikrát se musí otočit <b>menší</b> ozubené kolečko, aby se označené zuby nacházely opět v téže poloze?<br/>
+                <img src="data/Obrazek_zuby.jpg" alt="Obrazek_zuby"/></ukol_zadani>
                 <ukol_napoveda body_dolu="-1">
                     <ukol_napoveda_obsah>
-                        Nejprve si založ nové téma kopií vzoru:<br/>
-                        <img src="data/obrazky/ukol6.11.1.png" alt="ukol6.11.1"/>
+                        Rozmysli si, zda se otáčením kolečka budou počty prošlých zubů zvětšovat nebo zmenšovat.<br/>
+                        Budeš tedy počítat NSD nebo NSN?
+                        
                     </ukol_napoveda_obsah>
                 </ukol_napoveda>
                 <ukol_napoveda body_dolu="-1">
                     <ukol_napoveda_obsah>
-                        Přejmenuj soubor tak, aby odpovídal tématu a ty ho mohla dobře přiřadit.<br/>
-                        <img src="data/obrazky/ukol6.11.2.png" alt="ukol6.11.2"/>
+                        Rozlož čísla 15 a 9 na součin prvočísel. <br/>
+                        
                     </ukol_napoveda_obsah>
                 </ukol_napoveda>
                 <ukol_napoveda body_dolu="-1">
                     <ukol_napoveda_obsah>
-                        Z hlavičky si zkopíruj vzor příkladu a vlož ho do sekce pro úkoly.<br/>
-                        <img src="data/obrazky/ukol6.11.3.png" alt="ukol6.11.3"/>
+                        15 = 3 . 5<br/>
+                        9 = 3 . 3
                     </ukol_napoveda_obsah>
                 </ukol_napoveda>
                  <ukol_napoveda body_dolu="-1">    
                     <ukol_napoveda_obsah>
-                        Vypň připravená políčka novým obsahem<br/>
-                        <img src="data/obrazky/ukol6.11.4.png" alt="ukol6.11.4"/>
+                        Vypočítej NSN(9,15), který ti řekne po kolika zubech se opět sezkají označené zuby.
                     </ukol_napoveda_obsah>
                 </ukol_napoveda>
                 <ukol_odpoved>
                     <ukol_odpoved_zaka>
-                        Pokud jsi pracovala správně, brzy uvidíš další příklad.
+                        Malé kolo se musí otočit %1 krát.
                     </ukol_odpoved_zaka>
                     <ukol_reseni>
-                            A nebo taky ne :D. Nezapomeň na obrázky, ty se dají použít taky.
+                            Protože se kolečko bude otáčet, určitě se počet prošlých zubů bude zvětšovat. Proto budeme počítat NSN(9, 15).<br/>
+                            9 = 3 . 3<br/>
+                            15 = 3 . 5<br/>
+                            NSN(9,15) = 3 . 3 . 5 = 45<br/>
+                            Vypočítali jsme, že stejné zuby se opět setkají po 45 zubech.<br/>
+                            45 : 9 = 5<br/>
+                            Vypočítali jsme, kolikrát se otočí malé kolečko.
                     </ukol_reseni>
                 </ukol_odpoved>    
             </ukol_telo>
