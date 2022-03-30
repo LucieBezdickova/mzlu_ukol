@@ -89,7 +89,7 @@ function nactiUkoly(xmlText, inElementId) {
           
           // příklad Odpověď: 12 malířů vymaluje tuto halu za %1 hodin.
           // pěkná prasárnička :) vnořená změna... ((text.replace %1).replace %2) ...
-          txt += x[i].getElementsByTagName("ukol_odpoved_zaka")[0].innerHTML.replace("%1","<input type=text id=\"task_answer1\" size=1 title=\"Zadejte výsledek\"/>").replace("%2","<input type=text id=\"task_answer2\" size=1 title=\"Zadejte výsledek\"/>");   
+          txt += x[i].getElementsByTagName("ukol_odpoved_zaka")[0].innerHTML.replace("%1","<input type=text id=\"task_answer1\" size=1 title=\"Zadejte výsledek\"/>").replace("%2","<input type=text id=\"task_answer2\" size=1 title=\"Zadejte výsledek\"/>").replace("%3","<input type=text id=\"task_answer3\" size=1 title=\"Zadejte výsledek\"/>");   
           
           txt += "<button class=\"task_check_btn\" onclick=\"this.nextElementSibling.style=\'display:block\';\">Zkontroluj</button>";
           txt += "<div class=\"task_solution\" style=\"display: none;\">";
