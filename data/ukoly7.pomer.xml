@@ -46,6 +46,7 @@
                         Na pasece je %1 javorů, %2 buků a %3 dubů.
                     </ukol_odpoved_zaka>
                     <ukol_reseni>
+                            <b>ŘEŠENÍ:</b><br/>
                             <img src="data/Obrazek_paseka.jpg" alt="Obrazek_paseka"/>
                     </ukol_reseni>
                 </ukol_odpoved>    

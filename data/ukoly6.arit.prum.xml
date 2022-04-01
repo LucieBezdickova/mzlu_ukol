@@ -43,6 +43,7 @@
                 <ukol_odpoved>
                     <ukol_odpoved_zaka>Průměr hozených bodů byl %1.</ukol_odpoved_zaka>
                     <ukol_reseni>
+                        <b>ŘEŠENÍ:</b><br/>
                         celkový počet bodů: 5 + 3 + 4 = 12<br/>
                         celkový počet hodů: 3<br/>
                         aritmetický průměr: (celkový počet bodů) : (celkový počet hodů)<br/>
@@ -71,6 +72,7 @@
                         Průměrná známka byla %1 .
                     </ukol_odpoved_zaka>
                     <ukol_reseni>
+                        <b>ŘEŠENÍ:</b><br/>
                         Celkový součet známek je 18. <br/>
                         Počet známek je 9. <br/>
                         Průměrná známka tedy je 18 : 9 = 2.<br/>    

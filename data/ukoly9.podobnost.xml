@@ -47,6 +47,7 @@
                         Strom je vysoký %1 metrů.
                     </ukol_odpoved_zaka>
                     <ukol_reseni>
+                    <b>ŘEŠENÍ:</b><br/>
                     <img src="data/Obrazek_stin.jpg" alt="Obrazek_stin"/><br/>
                            v/100 = 1350/75<br/>
                            v = (1350 . 100)/75<br/>

@@ -47,6 +47,7 @@
                         Telegrafní sloup je vysoký %1 metru.
                     </ukol_odpoved_zaka>
                     <ukol_reseni>
+                            <b>ŘEŠENÍ:</b><br/>
                             <img src="data/Obrazek_sloup2.jpg" alt="Obrazek_sloup2"/>
                     </ukol_reseni>
                 </ukol_odpoved>    

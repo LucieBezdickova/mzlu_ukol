@@ -25,7 +25,7 @@
                 <ukol_odpoved>
                     <ukol_odpoved_zaka>Odpověď: Za 1,5 h hlemýžď urazí vzdálenost %1 centimetrů.</ukol_odpoved_zaka>
                     <ukol_reseni>
-                            Řešení:<br/>
+                            <b>ŘEŠENÍ:</b><br/>
                             za 1 min......................45 mm<br/>
                             za 1,5 h = 90 min.........x mm<br/>
                             ------------------------------------<br/>
@@ -62,7 +62,7 @@
                 <ukol_odpoved>
                     <ukol_odpoved_zaka>Za týden vyteče %1 litrů vody.</ukol_odpoved_zaka>
                     <ukol_reseni>
-                            Řešení:<br/>
+                            <b>ŘEŠENÍ:</b><br/>
                             1 týden = 7 dní<br/>
                             1 den = 24 hodin<br/>
                             1 týden = 168 hodin<br/>
@@ -100,6 +100,7 @@
                 <ukol_odpoved>
                     <ukol_odpoved_zaka>Jedno vajíčko stálo %1 korun.</ukol_odpoved_zaka> 
                     <ukol_reseni>
+                            <b>ŘEŠENÍ:</b><br/>
                             Cena nákupu: 100 - 43 = 57<br/>
                             <br/>
                             20 vajec.............57 Kč<br/>

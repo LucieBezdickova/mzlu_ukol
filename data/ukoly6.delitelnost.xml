@@ -60,6 +60,7 @@
                         Malé kolo se musí otočit %1 krát.
                     </ukol_odpoved_zaka>
                     <ukol_reseni>
+                            <b>ŘEŠENÍ:</b><br/>
                             Protože se kolečko bude otáčet, určitě se počet prošlých zubů bude zvětšovat. Proto budeme počítat NSN(9, 15).<br/>
                             9 = 3 . 3<br/>
                             15 = 3 . 5<br/>
