@@ -7,7 +7,7 @@ section {
     margin: 0;
     padding: 5px;
     background: #F6F6F2;
-    color:#383f3f
+    color:#383f3f;
 }
 .hlavicka {
     text-align: center;
@@ -25,12 +25,16 @@ section {
 }
 .temata {
     background: #BADFE7;
+    padding: 5px;
+    margin: 5px;
 
     /*  responsive section */
     flex: 0 1 250px;
 }
 .obsah {
-    padding: 10px;
+    
+    margin: 5px;
+    background: #F6F6F2;
     /*  responsive section */
     flex: 1;
 }
@@ -38,7 +42,7 @@ section {
     background: #F6F6F2;
     display: flex;
     flex-direction:column;
-    padding: 5px;
+       
 }
 .ukol_hlavicka
 {
@@ -47,12 +51,13 @@ section {
     flex-direction: row;
     justify-content: space-evenly;
     text-align: center;
+    border: 2px solid #388087;
+    margin: 1px;
     
-
 }
-.ukol_nadpis{
+.ukol_nadpis {
     flex: 10;
-    text-align: left; 
+    text-align: left;   
 }
 .ukol_level{
     flex: 2;
@@ -70,15 +75,20 @@ section {
 }
 .ukol_zadani{
     flex: 1;
-    background: #6FB3B8;
-    margin: 5px;
+    background: #BADFE7;
+    border-radius: 10px;
+    margin: 2px;
+    
 }
 .ukol_napoveda{
     flex: 1;
-    background: #F6F6F2;
+    background: #6FB3B8;
+    border-radius: 10px;
+    margin: 2px;  
 }
 .ukol_napoveda_radek {
     display: none;
+    
 }
 .ukol_napoveda_radek img {
     max-width: 100%;
@@ -86,9 +96,10 @@ section {
 }
 .ukol_odpoved{
     flex: 1;
-    background: #6FB3B8;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
+    background: #388087;
+    border-radius: 10px;
+    margin: 2px;
+    color:#F6F6F2
 }
 .ukol_check_btn{
     background: #F6F6F2;
@@ -99,6 +110,12 @@ section {
     flex: 1;
     background: #388087;
     color: #F6F6F2;
+    border-radius: 10px;
+    border: 2px solid white;
+    padding: 5px
+
+    
+
 }
 
 .paticka img {
