@@ -58,16 +58,16 @@ function nactiUkoly(xmlText, inElementId) {
 
   // pro každý úkol
   for (i = 0; i< x.length; i++) {
-    txt += "<div class='task'>";
+    txt += "<div class='ukol'>";
 
-    txt += "<section class='task_header' onclick=\"hideAllElementsByClassName(\'task_container\');this.nextElementSibling.style=\'display:block\'\">";
-    txt += "<div class='task_header_desc'>" +  x[i].getAttribute("nadpis") + "</div>";
-    txt += "<div class='task_level' level='" + x[i].getAttribute("uroven") +  "'>" + x[i].getAttribute("uroven") + "</div>";
-    txt += "<div class='task_points'>" + x[i].getAttribute("body") + "</div>";
+    txt += "<section class='ukol_hlavicka' onclick=\"hideAllElementsByClassName(\'ukol_obsah\');this.nextElementSibling.style=\'display:block\'\">";
+    txt += "<div class='ukol_nadpis'>" +  x[i].getAttribute("nadpis") + "</div>";
+    txt += "<div class='ukol_level' level='" + x[i].getAttribute("uroven") +  "'>" + x[i].getAttribute("uroven") + "</div>";
+    txt += "<div class='ukol_body'>" + x[i].getAttribute("body") + "</div>";
     txt += "</section>";
   
-      txt += "<div class='task_container'>";
-          txt += "<section class='task_description'>";
+      txt += "<div class='ukol_obsah'>";
+          txt += "<section class='ukol_zadani'>";
             txt +=  x[i].getElementsByTagName("ukol_zadani")[0].innerHTML;
           txt += "</section>"; // ukol_zadani
 
@@ -75,30 +75,30 @@ function nactiUkoly(xmlText, inElementId) {
           napovedy = x[i].getElementsByTagName("ukol_napoveda");
           var h;
           for (h = 0; h< napovedy.length; h++) {
-              txt +=  "<section class='task_help'>";
-                txt += "<div help_points=" + napovedy[h].getAttribute("body_dolu") + " task_id=" + x[i].getAttribute("id") + " onclick=\"this.nextElementSibling.style=\'display:block\';this.style=\'display:none\'\">Ukaž " +  h + ". nápovědu:</div>";
-                  txt += "<div class='task_help_line'>";
+              txt +=  "<section class='ukol_napoveda'>";
+                txt += "<div help_points=" + napovedy[h].getAttribute("body_dolu") + " ukol_id=" + x[i].getAttribute("id") + " onclick=\"this.nextElementSibling.style=\'display:block\';this.style=\'display:none\'\">Ukaž " +  h + ". nápovědu:</div>";
+                  txt += "<div class='ukol_napoveda_radek'>";
                     txt += napovedy[h].getElementsByTagName("ukol_napoveda_obsah")[0].innerHTML;       
-                  txt += "</div>"; // task help line
+                  txt += "</div>"; // ukol help line
               txt += "</section>";
           }
 
           // element odpovědi a řešení 
           debugger
-          txt += "<section class=\"task_answer\" task_id=\""+ x[i].getAttribute("id") + "\" task_points=\"" + x[i].getAttribute("body") + "\" task_answer1=\"" + x[i].getAttribute("reseni_A") + "\">"
+          txt += "<section class=\"ukol_odpoved\" ukol_id=\""+ x[i].getAttribute("id") + "\" ukol_body=\"" + x[i].getAttribute("body") + "\" ukol_odpoved1=\"" + x[i].getAttribute("reseni_A") + "\">"
           
           // příklad Odpověď: 12 malířů vymaluje tuto halu za %1 hodin.
           // pěkná prasárnička :) vnořená změna... ((text.replace %1).replace %2) ...
-          txt += x[i].getElementsByTagName("ukol_odpoved_zaka")[0].innerHTML.replace("%1","<input type=text id=\"task_answer1\" size=1 title=\"Zadejte výsledek\"/>").replace("%2","<input type=text id=\"task_answer2\" size=1 title=\"Zadejte výsledek\"/>").replace("%3","<input type=text id=\"task_answer3\" size=1 title=\"Zadejte výsledek\"/>");   
+          txt += x[i].getElementsByTagName("ukol_odpoved_zaka")[0].innerHTML.replace("%1","<input type=text id=\"ukol_odpoved1\" size=1 title=\"Zadejte výsledek\"/>").replace("%2","<input type=text id=\"ukol_odpoved2\" size=1 title=\"Zadejte výsledek\"/>").replace("%3","<input type=text id=\"ukol_odpoved3\" size=1 title=\"Zadejte výsledek\"/>");   
           
-          txt += "<button class=\"task_check_btn\" onclick=\"this.nextElementSibling.style=\'display:block\';\">Zkontroluj</button>";
-          txt += "<div class=\"task_solution\" style=\"display: none;\">";
+          txt += "<button class=\"ukol_check_btn\" onclick=\"this.nextElementSibling.style=\'display:block\';\">Zkontroluj</button>";
+          txt += "<div class=\"ukol_reseni\" style=\"display: none;\">";
               txt += x[i].getElementsByTagName("ukol_reseni")[0].innerHTML;
-          txt += "</section>"; // task_answer 
+          txt += "</section>"; // ukol_odpoved 
 
-      txt += "</div>"; // task container
+      txt += "</div>"; // ukol container
 
-    txt += "</div>";  // task element
+    txt += "</div>";  // ukol element
 
   }
   document.getElementById(inElementId).innerHTML = txt;

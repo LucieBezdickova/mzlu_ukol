@@ -1,170 +1,132 @@
-main, header, section, aside, footer {
+main {
+    background: #388087;
+    padding: 5px;  
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+}
+section {
     margin: 0;
     padding: 5px;
-    border: 1px solid #000000;
-    color: #ffffff;
+    background: #F6F6F2;
+    color:#383f3f
 }
+.hlavicka {
+    text-align: center;
+    color:#388087;
+}
+.rocniky {
+    background: #388087;
+    text-align: center;
+    justify-content: space-evenly;
+}
+.rocnikitem {
+    padding: 5px;
+    color: #F6F6F2;
+    text-align: center;
+}
+.temata {
+    background: #BADFE7;
 
-.task {
+    /*  responsive section */
+    flex: 0 1 250px;
+}
+.obsah {
+    padding: 10px;
+    /*  responsive section */
+    flex: 1;
+}
+.ukol {
+    background: #F6F6F2;
     display: flex;
     flex-direction:column;
-    margin: 0;
     padding: 5px;
-    border: 1px solid #000000;
-    color: #ffffff;
 }
-
-.task_container {
-    display: none;
-}
-
-.task_header
+.ukol_hlavicka
 {
     display: flex;
-    
-    background: #08fa28;  
+    background: #BADFE7;  
     flex-direction: row;
     justify-content: space-evenly;
     text-align: center;
-
-}
-
-.task_header_desc
-{
-    flex: 10;
     
-  
+
+}
+.ukol_nadpis{
+    flex: 10;
     text-align: left; 
-    color: black; 
 }
-
-.task_level
-{
+.ukol_level{
     flex: 2;
-    background: rgb(24, 59, 134);
+    background: #6FB3B8;
     border-radius: 50px;
 }
-
-.task_points
-{
+.ukol_body{
     flex: 2;
-    background: rgb(19, 54, 212);
+    background: #388087;
     border-radius: 50px;
+    color: #F6F6F2;
 }
-
-
-.task_help_line {
+.ukol_obsah {
     display: none;
 }
-
-.task_description
-{
+.ukol_zadani{
     flex: 1;
-    background: #e62a09;
+    background: #6FB3B8;
+    margin: 5px;
 }
-
-.task_help
-{
+.ukol_napoveda{
     flex: 1;
-    background: rgb(250, 204, 2);
+    background: #F6F6F2;
 }
-
-.task_help_line img {
+.ukol_napoveda_radek {
+    display: none;
+}
+.ukol_napoveda_radek img {
     max-width: 100%;
     height: auto; 
 }
-
-.task_answer
-{
+.ukol_odpoved{
     flex: 1;
-    background: gray;
+    background: #6FB3B8;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
 }
-
-.task_solution
-{
-    flex: 1;
-    background: green;
-}
-
-.task_check_btn
-{
-    background: rgb(252, 250, 250);
+.ukol_check_btn{
+    background: #F6F6F2;
     border-radius: 10px;
+    color:#388087 ;
 }
-main {
-    background: #0e0d0d;
-    padding: 10px;
-}
-
-.hlavicka {
-    background: #08fa28;
-    text-align: center;
-    color: #0e0d0d;
-}
-
-      
-.rocniky {
-    background: yellow;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    justify-content: left;
-}
-
-.rocnikitem {
-    border: 1px solid #000000;
-    padding: 5px;
-    color: black;
-    text-align: center;
-}
-
-.obsah {
-    background: #5902fa;
-
-    /* responsive section */
+.ukol_reseni{
     flex: 1;
+    background: #388087;
+    color: #F6F6F2;
 }
 
-.temata {
-    border: 1px solid #000000;
-    background: #e62a09;
-
-    /* responsive section */
-    flex: 0 1 250px;
+.paticka img {
+    max-width: 100%;
+    height: 30px; 
 }
-
 .paticka {
-    border: 1px solid #000000;
-    background: #08fa28;
-    display: flex;
+    background: #388087;
+    text-align: center;
     justify-content: center;
-    flex-direction: column;
+    align-items: center;
+}
+.patickaitem {
+    padding: 5px;
+    color: #F6F6F2;
     text-align: center;
 }
 
-.patickaitem {
-    
-    color: #0e0d0d;  
-    text-align: center;
-}
 
 /* responsive section */
 .flex_blok {
     margin: auto;
     max-width: 1200px;
+    
 }
 
 @media only screen and (min-width: 640px){
-    .flex_blok {
+    .flex_blok,.rocnikitem,.patickaitem,.rocniky,.paticka {
         display: flex;
     }    
-    .rocnikitem {
-        display: flex;
-        color:rgb(8, 8, 8);
-    }
-    .rocniky,.paticka {
-        flex-direction: row;
-    }
 }
