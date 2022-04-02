@@ -26,7 +26,7 @@
         </ukol>
 -->
     <ukoly>
-        <ukol id="1" nadpis="STÍN" uroven="1" body="10" reseni_A="0" reseni_B="0">
+        <ukol id="1" nadpis="STÍN" uroven="A" body="10" reseni_A="0" reseni_B="0">
             <ukol_telo>
                 <ukol_zadani>Jak vysoký je strom, jehož stín v poledne měří 13,5 metru? Změřili jsme, že tyč dlouhá 1 metr vrhá v poledne stín dlouhý 75 centimetrů.</ukol_zadani>
                 <ukol_napoveda body_dolu="-0">

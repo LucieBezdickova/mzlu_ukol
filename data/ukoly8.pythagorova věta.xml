@@ -26,7 +26,7 @@
         </ukol>
 -->
     <ukoly>
-       <ukol id="1" nadpis="SLOUP" uroven="2" body="10" reseni_A="0" reseni_B="0">
+       <ukol id="1" nadpis="SLOUP" uroven="B" body="10" reseni_A="0" reseni_B="0">
             <ukol_telo>
                 <ukol_zadani>Telegrafní sloup je podepřen vzpěrou dlouhou 4 m ve 3/4 své výšky, jejíž konec je od paty sloupu vzdálen 2,5 m. Vypočítej <b>výšku</b> telegrafního sloupu.<br/>
                 <img src="data/Obrazek_sloup1.jpg" alt="Obrazek_sloup1"/></ukol_zadani>
