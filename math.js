@@ -87,13 +87,15 @@ function nactiUkoly(xmlText, inElementId) {
           debugger
           txt += "<section class=\"ukol_odpoved\" ukol_id=\""+ x[i].getAttribute("id") + "\" ukol_body=\"" + x[i].getAttribute("body") + "\" ukol_odpoved1=\"" + x[i].getAttribute("reseni_A") + "\">"
           
-          // příklad Odpověď: 12 malířů vymaluje tuto halu za %1 hodin.
-          // pěkná prasárnička :) vnořená změna... ((text.replace %1).replace %2) ...
-          txt += x[i].getElementsByTagName("ukol_odpoved_zaka")[0].innerHTML.replace("%1","<input type=text id=\"ukol_odpoved1\" size=1 title=\"Zadejte výsledek\"/>").replace("%2","<input type=text id=\"ukol_odpoved2\" size=1 title=\"Zadejte výsledek\"/>").replace("%3","<input type=text id=\"ukol_odpoved3\" size=1 title=\"Zadejte výsledek\"/>");   
-          
-          txt += "<button class=\"ukol_check_btn\" onclick=\"this.nextElementSibling.style=\'display:block\';\">Zkontroluj</button>";
-          txt += "<div class=\"ukol_reseni\" style=\"display: none;\">";
-              txt += x[i].getElementsByTagName("ukol_reseni")[0].innerHTML;
+              txt += "<div class=\"ukol_odpoved_zak\">";
+              // příklad Odpověď: 12 malířů vymaluje tuto halu za %1 hodin.
+              // pěkná prasárnička :) vnořená změna... ((text.replace %1).replace %2) ...
+                  txt += x[i].getElementsByTagName("ukol_odpoved_zaka")[0].innerHTML.replace("%1","<input type=text id=\"ukol_odpoved1\" size=1 title=\"Zadejte výsledek\"/>").replace("%2","<input type=text id=\"ukol_odpoved2\" size=1 title=\"Zadejte výsledek\"/>").replace("%3","<input type=text id=\"ukol_odpoved3\" size=1 title=\"Zadejte výsledek\"/>");   
+                  txt += "<button class=\"ukol_check_btn\" onclick=\"document.getElementById(\'reseni_"+ x[i].getAttribute("id") +"\').style=\'display:block\';\">Zkontroluj</button>";
+              txt += "</div>";
+              txt += "<div class=\"ukol_reseni\" id=\"reseni_"+ x[i].getAttribute("id")  +"\" style=\"display:none;\">";
+                  txt += x[i].getElementsByTagName("ukol_reseni")[0].innerHTML;
+              txt += "</div>"
           txt += "</section>"; // ukol_odpoved 
 
       txt += "</div>"; // ukol container
