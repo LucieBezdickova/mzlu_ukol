@@ -17,11 +17,16 @@ section {
     background: #388087;
     text-align: center;
     justify-content: space-evenly;
+    
 }
 .rocnikitem {
     padding: 5px;
     color: #F6F6F2;
     text-align: center;
+    
+}
+.rocnikitem:hover{
+    text-decoration:underline;
 }
 .temata {
     background: #BADFE7;
@@ -30,6 +35,9 @@ section {
 
     /*  responsive section */
     flex: 0 1 250px;
+}
+.temata li:hover{
+    text-decoration:underline;
 }
 .obsah {
     
@@ -59,6 +67,10 @@ section {
     flex: 10;
     text-align: left;   
 }
+.ukol_nadpis :hover{
+    text-decoration: underline;
+}
+
 .ukol_level{
     flex: 2;
     background: #6FB3B8;
