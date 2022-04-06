@@ -2,7 +2,7 @@
     <ukoly>
         <ukol id="1" nadpis="HLEMÝŽĎ" uroven="A" body="10" reseni_A="405" reseni_B="">
             <ukol_telo>
-                <ukol_zadani>Zadání: Hlemýžď urazí za 1 minutu 45 mm. Jaku vzdálenost urazí za 1,5 hodiny, bude-li ve svém pohybu stejně vytrvalý? Výsledek uveď v <b>centimetrech</b>.</ukol_zadani>
+                <ukol_zadani>Zadání: Hlemýžď urazí za 1 minutu 45 mm. Jakou vzdálenost urazí za 1,5 hodiny, bude-li ve svém pohybu stejně vytrvalý? Výsledek uveď v <b>centimetrech</b>.</ukol_zadani>
                 <ukol_napoveda body_dolu="-3">
                     <ukol_napoveda_obsah>
                         <ul>

@@ -31,12 +31,14 @@
                 <ukol_napoveda body_dolu="-2">
                     <ukol_napoveda_obsah>
                         Pro výpočet aritmetického průměru musíš znát celkové <b>množství bodů</b> a také celkové <b>množství hodů</b>.<br/>
+                        <br/>
                         <i>Tato rada tě stála -3 body.</i>
                     </ukol_napoveda_obsah>
                 </ukol_napoveda>
                 <ukol_napoveda body_dolu="-3">
                     <ukol_napoveda_obsah>
-                        Když víš, kolik bodů kluci hodili dohromady, jaký je průmerný počet bodů, jestliže házeli 3-krát?<br/>
+                        Když víš, kolik bodů kluci hodili dohromady, jaký je průměrný počet bodů, jestliže házeli 3-krát?<br/>
+                        <br/>
                         <i>Tato rada tě stála -3 body.</i>
                     </ukol_napoveda_obsah>
                 </ukol_napoveda>

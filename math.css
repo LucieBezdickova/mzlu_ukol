@@ -67,7 +67,7 @@ section {
     flex: 10;
     text-align: left;   
 }
-.ukol_nadpis :hover{
+.ukol_nadpis:hover{
     text-decoration: underline;
 }
 
