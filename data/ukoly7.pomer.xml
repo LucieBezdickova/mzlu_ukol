@@ -1,7 +1,7 @@
 <xml version="1.0" encoding="UTF-8">
 <!-- prázdný vzorový úkol
 
-        <ukol id="0" nadpis="XXX" uroven="0" body="0" reseni_A="0" reseni_B="0">
+        <ukol id="0" nadpis="XXX" uroven="0" body="0" reseni_A="0" reseni_B="0" reseni_C="0">
             <ukol_telo>
                 <ukol_zadani>Zadání</ukol_zadani>
                 <ukol_napoveda body_dolu="-0">
@@ -26,7 +26,7 @@
         </ukol>
 -->
     <ukoly>
-        <ukol id="1" nadpis="PASEKA" uroven="A" body="10" reseni_A="0" reseni_B="0">
+        <ukol id="1" nadpis="PASEKA" uroven="A" body="10" reseni_A="33" reseni_B="99" reseni_C="264">
             <ukol_telo>
                 <ukol_zadani>K zalesnění paseky se použilo 396 sazenic. Počet <b>javorů</b>, <b>buků</b> a <b>dubů</b> je v poměru <b>1 : 3 : 8</b>. Kolik je kterých stromků?</ukol_zadani>
                 <ukol_napoveda body_dolu="-0">
