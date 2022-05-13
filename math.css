@@ -109,7 +109,7 @@ section {
     display: none;
     
 }
-.ukol_napoveda:hover{
+.ukol_napoveda_hlavicka:hover{
     text-decoration: underline;
     cursor: pointer;
 }

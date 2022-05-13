@@ -81,7 +81,7 @@ function nactiUkoly(xmlText, inElementId) {
           for (h = 0; h< napovedy.length; h++) {
               zobrazh = h + 1;
               txt +=  "<section class='ukol_napoveda'>";
-                txt += "<div help_points=" + napovedy[h].getAttribute("body_dolu") + " ukol_id=" + x[i].getAttribute("id") + " onclick=\"this.nextElementSibling.style=\'display:block\';this.style=\'display:none\'\">Ukaž " +  zobrazh + ". nápovědu:</div>";
+                txt += "<div class='ukol_napoveda_hlavicka' help_points=" + napovedy[h].getAttribute("body_dolu") + " ukol_id=" + x[i].getAttribute("id") + " onclick=\"this.nextElementSibling.style=\'display:block\';this.style=\'display:none\'\">Ukaž " +  zobrazh + ". nápovědu:</div>";
                   txt += "<div class='ukol_napoveda_radek'>";
                     txt += napovedy[h].getElementsByTagName("ukol_napoveda_obsah")[0].innerHTML;       
                   txt += "</div>"; // ukol help line

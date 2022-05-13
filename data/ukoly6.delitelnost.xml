@@ -27,7 +27,7 @@
 -->
     <ukoly>
         <!-- sem vložte zkopirovany element <ukol> -->
-        <ukol id="1" nadpis="OZUBENÁ KOLEČKA" uroven="B" body="10" reseni_A="0" reseni_B="0" reseni_C="0">
+        <ukol id="1" nadpis="OZUBENÁ KOLEČKA" uroven="B" body="10" reseni_A="45" reseni_B="0" reseni_C="0">
             <ukol_telo>
                 <ukol_zadani>Kolikrát se musí otočit <b>menší</b> ozubené kolečko, aby se označené zuby nacházely opět v téže poloze?<br/>
                 <img src="data/Obrazek_zuby.jpg" alt="Obrazek_zuby"/></ukol_zadani>
