@@ -27,6 +27,7 @@ section {
 }
 .rocnikitem:hover{
     text-decoration:underline;
+    cursor: pointer;
 }
 .temata {
     background: #BADFE7;
@@ -38,6 +39,7 @@ section {
 }
 .temata li:hover{
     text-decoration:underline;
+    cursor: pointer;
 }
 .obsah {
     
@@ -69,6 +71,7 @@ section {
 }
 .ukol_nadpis:hover{
     text-decoration: underline;
+    cursor:pointer;
 }
 
 .ukol_level{
@@ -101,6 +104,10 @@ section {
 .ukol_napoveda_radek {
     display: none;
     
+}
+.ukol_napoveda:hover{
+    text-decoration: underline;
+    cursor: pointer;
 }
 .ukol_napoveda_radek img {
     max-width: 100%;

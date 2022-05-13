@@ -60,12 +60,14 @@
                 <ukol_napoveda body_dolu="-3">
                     <ukol_napoveda_obsah>
                         Sečti si všechny známky.<br/>
+                        <br/>
                         <i>Tato rada tě stála -3 body.</i>
                     </ukol_napoveda_obsah>
                 </ukol_napoveda>
                 <ukol_napoveda body_dolu="-2">
                     <ukol_napoveda_obsah>
                         Spočítej si počet známek.<br/>
+                        <br/>
                         <i>Tato rada tě stála -3 body.</i>
                     </ukol_napoveda_obsah>
                 </ukol_napoveda>
