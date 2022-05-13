@@ -1,6 +1,6 @@
 <xml version="1.0" encoding="UTF-8">
     <ukoly>
-        <ukol id="1" nadpis="HLEMÝŽĎ" uroven="A" body="10" reseni_A="405" reseni_B="">
+        <ukol id="1" nadpis="HLEMÝŽĎ" uroven="A" body="10" reseni_A="405" reseni_B="0" reseni_C="0">
             <ukol_telo>
                 <ukol_zadani>Zadání: Hlemýžď urazí za 1 minutu 45 mm. Jakou vzdálenost urazí za 1,5 hodiny, bude-li ve svém pohybu stejně vytrvalý? Výsledek uveď v <b>centimetrech</b>.</ukol_zadani>
                 <ukol_napoveda body_dolu="-3">
@@ -38,7 +38,7 @@
                 </ukol_odpoved>    
             </ukol_telo>
         </ukol>
-        <ukol id="2" nadpis="KOHOUTEK" uroven="B" body="10" reseni_A="107,52" reseni_B="0">
+        <ukol id="2" nadpis="KOHOUTEK" uroven="B" body="10" reseni_A="107,52" reseni_B="0" reseni_C="0">
             <ukol_telo>
                 <ukol_zadani>Špatně utěsněným kohoutkem vyteče za hodinu 0,64 litru vody. Kolik <b>litrů</b> vody vyteče za <b>týden</b>?</ukol_zadani>
                 <ukol_napoveda body_dolu="-3">
@@ -77,7 +77,7 @@
                 </ukol_odpoved>    
             </ukol_telo>
         </ukol>
-         <ukol id="3" nadpis="VAJÍČKA" uroven="C" body="10" reseni_A="2,85" reseni_B="0">
+         <ukol id="3" nadpis="VAJÍČKA" uroven="C" body="10" reseni_A="2,85" reseni_B="0" reseni_C="0">
             <ukol_telo>
                 <ukol_zadani>Jana koupila 20 vajíček. Platila stokorunovou bankovkou a vrátili jí 43 Kč. Za kolik korun bylo jedno vejce?</ukol_zadani>
                 <ukol_napoveda body_dolu="-3">

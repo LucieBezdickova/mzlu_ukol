@@ -9,6 +9,10 @@ section {
     background: #F6F6F2;
     color:#383f3f;
 }
+.infoImg img {
+    max-width: 100%;
+    height: auto;     
+}
 .hlavicka {
     text-align: center;
     color:#388087;
