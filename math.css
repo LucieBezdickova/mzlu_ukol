@@ -20,14 +20,12 @@ section {
 .rocniky {
     background: #388087;
     text-align: center;
-    justify-content: space-evenly;
-    
+    justify-content: space-evenly;   
 }
 .rocnikitem {
     padding: 5px;
     color: #F6F6F2;
-    text-align: center;
-    
+    text-align: center; 
 }
 .rocnikitem:hover{
     text-decoration:underline;
@@ -37,8 +35,6 @@ section {
     background: #BADFE7;
     padding: 5px;
     margin: 5px;
-
-    /*  responsive section */
     flex: 0 1 250px;
 }
 .temata li:hover{
@@ -138,9 +134,6 @@ section {
     border: 2px solid #F6F6F2;
     padding: 5px;
     margin-top: 5px;
-    
-    
-
 }
 
 .paticka img {
@@ -160,11 +153,10 @@ section {
 }
 
 
-/* responsive section */
+/* část responsive */
 .flex_blok {
     margin: auto;
     max-width: 1200px;
-    
 }
 
 @media only screen and (min-width: 640px){
