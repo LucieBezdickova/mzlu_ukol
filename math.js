@@ -1,5 +1,5 @@
 // Funkce skryje všechny elementy
-function hideAllElementsByClassName(className) {
+function skryjElementyTridy(className) {
     var x = document.getElementsByClassName(className);
     for (var i = 0; i < x.length; i++) {
     x[i].style.display = "none";
@@ -64,7 +64,7 @@ function nactiUkoly(xmlText, inElementId) {
   for (i = 0; i< x.length; i++) {
     txt += "<div class='ukol'>";
 
-    txt += "<section class='ukol_hlavicka' onclick=\"hideAllElementsByClassName(\'ukol_obsah\');this.nextElementSibling.style=\'display:block\'\">";
+    txt += "<section class='ukol_hlavicka' onclick=\"skryjElementyTridy(\'ukol_obsah\');this.nextElementSibling.style=\'display:block\'\">";
     txt += "<div class='ukol_nadpis'>" +  x[i].getAttribute("nadpis") + "</div>";
     txt += "<div class='ukol_level' level='" + x[i].getAttribute("uroven") +  "'>" + x[i].getAttribute("uroven") + "</div>";
     txt += "<div class='ukol_body'>" + x[i].getAttribute("body") + "</div>";
@@ -129,3 +129,4 @@ function overVysledek(inResA,inResB,inResC,inVyslA,inVyslB,inVyslC) {
   }
 
 }
+// 
